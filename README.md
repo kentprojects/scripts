@@ -1,4 +1,11 @@
-scripts
-=======
+```
+/**
+ * @author: KentProjects <developer@kentprojects.com>
+ * @license: Copyright KentProjects
+ * @link: http://kentprojects.com
+ */
+```
 
-A collection of scripts to automate tasks &amp; test the KentProjects platform
+# KentProjects Scripts
+
+A collection of scripts to automate tasks & test the KentProjects platform.
