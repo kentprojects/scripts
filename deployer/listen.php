@@ -16,6 +16,8 @@ namespace Deployer;
  * Unlike `run.php`, this script is designed to be completely headless.
  */
 
+define("METHOD", "listen");
+
 try
 {
 	require_once __DIR__ . "/main.php";

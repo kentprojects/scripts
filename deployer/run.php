@@ -18,6 +18,8 @@ namespace Deployer;
  * (Unless a command line argument is set *wink*)
  */
 
+define("METHOD", "run");
+
 try
 {
 	require_once __DIR__ . "/main.php";
