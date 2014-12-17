@@ -1,5 +1,3 @@
 {
-	"name": "kentprojects/api",
-	"description": "A custom Vagrant box for the KentProjects API.",
-	"provider": "parallels"
+	"provider": "virtualbox"
 }
