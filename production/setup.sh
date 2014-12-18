@@ -27,7 +27,7 @@ INCLUDE_JEKYLL=true
 # Update the package repositories and install the relevant packages.
 sudo apt-get update
 sudo apt-get install -y apache2 mysql-client curl git screen zsh
-sudo apt-get install -y php5 php5-cli php5-curl php5-mysqlnd php5-json
+sudo apt-get install -y php5 php5-cli php5-curl php5-mysqlnd php5-json php5-memcached
 
 # Create a dedicated user for KentProjects, and add it to the relevant groups.
 sudo useradd -c KentProjects -d /home/kentprojects -G www-data,sudo -m -s /bin/zsh kentprojects
