@@ -1,23 +1,23 @@
 {
-	"name": "kentprojects/api",
-	"description": "A custom Vagrant box for the KentProjects API.",
-	"versions": [
+  "name": "kentprojects/api",
+  "description": "A custom Vagrant box for the KentProjects API.",
+  "versions": [
+	{
+	  "version": "0.1.0",
+	  "providers": [
 		{
-			"version": "0.1.0",
-			"providers": [
-				{
-					"name": "parallels",
-					"url": "http://66403266a10db1208e65-c0c26fc6805c3971114385a3a0694e55.r73.cf3.rackcdn.com/kentprojects-api-010-parallels.box",
-					"checksum_type": "sha1",
-					"checksum": "323d0aac4bc13fe7615e58793d2042fb6f0020b4"
-				},
-				{
-					"name": "virtualbox",
-					"url": "http://66403266a10db1208e65-c0c26fc6805c3971114385a3a0694e55.r73.cf3.rackcdn.com/kentprojects-api-010-virtualbox.box",
-					"checksum_type": "sha1",
-					"checksum": "ecd70517af8d06e9f3b4722d7f61a1a9505cff30"
-				}
-			]
+		  "name": "parallels",
+		  "url": "http://66403266a10db1208e65-c0c26fc6805c3971114385a3a0694e55.r73.cf3.rackcdn.com/kentprojects-api-010-parallels.box",
+		  "checksum_type": "sha1",
+		  "checksum": "323d0aac4bc13fe7615e58793d2042fb6f0020b4"
+		},
+		{
+		  "name": "virtualbox",
+		  "url": "http://66403266a10db1208e65-c0c26fc6805c3971114385a3a0694e55.r73.cf3.rackcdn.com/kentprojects-api-010-virtualbox.box",
+		  "checksum_type": "sha1",
+		  "checksum": "ecd70517af8d06e9f3b4722d7f61a1a9505cff30"
 		}
-	]
+	  ]
+	}
+  ]
 }
