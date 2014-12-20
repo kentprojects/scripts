@@ -1,3 +1,5 @@
 # Build A Vagrant
 
-Building vagrant boxes isn't as bad as it sounds!
+> Alert! This has been shut down due to over-complicated-ness.
+
+That is all.

@@ -8,11 +8,11 @@ First of all, run:
 $ vagrant up --provider parallels
 ```
 
-Once the box has finished booting, login to the box and install / configure whatever you'd like, most likely by running [`provision.sh`](./provision.sh), then exit the box and
-`halt` it.
+Once the box has finished booting, login to the box and install / configure whatever you'd like, most likely by running
+[`sh provision.sh`](./provision.sh), then exit the box and `halt` it.
 
-Next, create `metadata.json` in this folder with the following contents:
-      
+Next, modify `metadata.json` in this folder and ensure the `provider` is set correctly:
+
 ```json
 {
 	"provider": "parallels"
@@ -23,8 +23,8 @@ Next, identify the `.pvm` of your virtual machine (by default in `~/Documents/Pa
 (replacing the `.pvm` name with that of your Virtual Machine).
 
 ```sh
-$ prl_disk_tool compact --hdd ~/Documents/Parallels/api_default_1418771862967_54865.pvm/harddisk.hdd
-$ tar cvzf kentprojects-api-010-parallels.box ~/Documents/Parallels/api_default_1418771862967_54865.pvm ./Vagrantfile ./metadata.json
+$ prl_disk_tool compact --hdd ~/Documents/Parallels/kentprojects-api.pvm/harddisk.hdd
+$ tar cvzf kentprojects-api-010-parallels.box ~/Documents/Parallels/kentprojects-api.pvm ./metadata.json
 ```
 
 ## VirtualBox
