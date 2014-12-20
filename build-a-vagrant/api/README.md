@@ -8,7 +8,7 @@ First of all, run:
 $ vagrant up --provider parallels
 ```
 
-Once the box has finished booting, login to the box and install / configure whatever you'd like, then exit the box and
+Once the box has finished booting, login to the box and install / configure whatever you'd like, most likely by running [`provision.sh`](./provision.sh), then exit the box and
 `halt` it.
 
 Next, create `metadata.json` in this folder with the following contents:
@@ -35,7 +35,7 @@ First of all, run:
 $ vagrant up --provider virtualbox
 ```
 
-Once the box has finished booting, login to the box and install / configure whatever you'd like, then exit the box.
+Once the box has finished booting, login to the box and install / configure whatever you'd like, most likely by running [`provision.sh`](./provision.sh), then exit the box.
 
 Finally, simply run:
 
