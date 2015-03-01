@@ -22,7 +22,6 @@ USER=" \033[1;1;49m[==]\033[0m "
 
 # If you want the development environments, set this to "true".
 INCLUDE_DEV=false
-INCLUDE_JEKYLL=true
 
 # Update the package repositories and install the relevant packages.
 sudo apt-get update
@@ -75,12 +74,6 @@ $INCLUDE_DEV && sudo ln -s /var/www/kentprojects-api-dev/vagrant/scripts/product
 false && sudo ln -s /var/www/kentprojects-api/vagrant/scripts/production/apache.deployer.conf /etc/apache2/sites-enabled/03-Deployer.conf
 
 sudo service apache2 restart
-
-if $INCLUDE_JEKYLL; then
-	sudo apt-get install -y make
-	sudo apt-get install -y ruby1.9.1-dev gem nodejs npm
-	sudo gem install json jekyll rouge
-fi
 
 printf "$GOOD Everything looks good from here!\n"
 printf "$TASK Now you need to ensure the correct config.ini is present for the API.\n"

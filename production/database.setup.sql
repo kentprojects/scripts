@@ -19,4 +19,4 @@ CREATE DATABASE `kentprojects` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_c
  * Locked down using an IP address.
  * Obviously the password isn't "password". We're students, not idiots.
  */
-GRANT ALL PRIVILEGES ON `kentprojects`.* TO 'kentprojects'@'10.181.200.67' IDENTIFIED BY 'password' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON `kentprojects`.* TO 'kentprojects'@'127.0.0.1' IDENTIFIED BY 'password' WITH GRANT OPTION;
