@@ -9,7 +9,7 @@
 # disown makes the terminal forget it exists
 #
 PIPE=/var/www/notifications-pipe
-SCRIPT=/var/www/kentprojects-api/notifications.sh
+SCRIPT=/var/www/kentprojects-api/notifications.php
 
 echo "$PIPE\n$SCRIPT"
 
